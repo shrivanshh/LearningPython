@@ -1,5 +1,14 @@
 # LearningPython
 
+**Numbers**
+//TODO
+
+**Strings**
+//TODO
+
+**Lists**
+//TODO
+
 **Dictionaries**
 In python the dictionaries are key/value pairs, unlike the list the dictionaries were accessible via keys i.e. they are not accessed by position.
 - Mappings in Python
