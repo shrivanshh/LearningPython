@@ -11,6 +11,8 @@ print myTuples[-1]
 
 # Get index of
 print myTuples.index('three')
+
+# First index of first occurence will be returned
 print myTuples.index(4)
 
 # Count the number of times the value appears

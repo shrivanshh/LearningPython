@@ -1,0 +1,6 @@
+Hello,
+
+This is a test file, and i am learning python file handling. Will try to operate on this file ne few or some lectures notes.
+Please bear with us !!!
+
+Best Regards
