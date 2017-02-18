@@ -1,5 +1,8 @@
 # LearningPython
 
+*All the practise files are having enough comments to explain the execution of program, so in case of missing documentation,
+please refer the comments of implementations*
+
 **Numbers**
 //TODO
 
