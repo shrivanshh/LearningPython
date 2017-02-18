@@ -50,6 +50,39 @@ for (name, position, age) in familyMembers:
 # As, dictionaries while accessing from for loop can only return keys, we needs to use iterators to use them wisely.
 # i.e. .iteritems (for python 2), and .items (for python 3)
 
-familyDictionary = {"hubby" : {name: "John", age: 34}, "wife" : {name: "Marry", age: 32}, "daughter": {name: "luice", age: 5}}
+familyDictionary = {"hubby": {name: "John", age: 34}, "wife": {name: "Marry", age: 32}, "daughter": {name: "luice", age: 5}}
 for position, memberDictionary in familyDictionary.iteritems():
     print "My name is {name}, with age {age}, and i am {position} of the family" .format(name=memberDictionary[name], age=memberDictionary[age], position=position)
+
+
+# While Statements
+# Syntax:
+#   while condition:
+#       do stuff
+#   else: (optional)
+#       final statement (optional)
+
+# Simple Example
+count = 0
+
+while count < 5:
+    print "The value of count is {count}" .format(count=count)
+    count += 1
+else:
+    print "The count is out of range !!!"
+
+# break, and continue statements for while loops
+# find position of number 24
+
+randomArray = [12, 23, 14, 15, 24, 56, 67, 27]
+count=0
+
+while True:
+    if randomArray[count] == 24:
+        print "The position of number 24 is {count}" .format(count=count)
+        break
+    elif count<len(randomArray):
+        count += 1
+        continue
+    else:
+        break
