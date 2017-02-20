@@ -86,3 +86,25 @@ while True:
         continue
     else:
         break
+
+# Range function range(x, y), where x is optional and which means include x and range from x to y EXCLUDING y
+# type(x) function is used to view the type of variable in python.
+
+if range(0, 4) == range(4):
+    print "Both function range(0, 4) and range(4) are same and are of type {type}" .format(type=type(range(4)))
+
+# Another notation of range is range(start, stop, step), where step is the step to go from start to stop i.e. 0 to 10
+#  in step of 2
+print range(0, 20, 2)
+
+# Generators is a concept which will help you to create list but not save in memory. i.e. if  you need to use 1
+# billion numbers to operate for a for loop you don't have to use range function.
+
+# Alert for python 3,
+# In python 2, range should not be used and instead xrange should be used if used with for loop.
+# In python 3, range function is already using generators and you don't have to worry about it.
+
+for numbers in range(5):
+    print "This is number {x}" .format(x=numbers)
+
+# Notice: When the type of xrange is not saved, the type(xrange(x)) will return xrange and not list.
