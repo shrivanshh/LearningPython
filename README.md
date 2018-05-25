@@ -24,3 +24,4 @@ The Tuples are used in place of lists, if the immutability is required. Example 
 - Immutable (values cannot be re-assigned)
 - Tuple objects does not support item assignment
 - ( ) Parenthesis are used instead of [ ] in list
+
